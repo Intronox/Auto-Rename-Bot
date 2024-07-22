@@ -13,17 +13,17 @@
 
 ## ⚡️ Configs 
 
-* `BOT_TOKEN`  - Get bot token from @BotFather
+* `7372669318:AAGuTHu_VvxzhtdxGMDBsc5x1aGbGnu--7Q`  - Get bot token from @BotFather
 
-* `API_ID` - From my.telegram.org
+* `16510180` - From my.telegram.org
 
-* `API_HASH` - From my.telegram.org
+* `97d3a727651ab860c8f3a69d528f7018` - From my.telegram.org
 
-* `ADMIN` - Bot controllers id's , multiple id use space to split.
+* `1214348787` - Bot controllers id's , multiple id use space to split.
 
-* `LOG_CHANNEL` - Bot Log Sending Channel ⚠️ Id startswith -100 must.
+* `https://t.me/+h4EjlQLNr2s1NTJl` - Bot Log Sending Channel ⚠️ Id startswith -100 must.
 
-* `DB_URL`  - Mongo Database URL from https://cloud.mongodb.com
+* `o6ovc3q.mongodb.net/?retryWrites=true&w=majority&appName=Clusters00909`  - Mongo Database URL from https://cloud.mongodb.com
 
 * `DB_NAME`  - Your database name from mongoDB. `Optional`
 
