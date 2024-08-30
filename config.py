@@ -3,13 +3,13 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "")
-    API_HASH  = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID    = os.environ.get("API_ID", "16510180")
+    API_HASH  = os.environ.get("API_HASH", "97d3a727651ab860c8f3a69d528f7018")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7391505685:AAErvFyze5UfZYWwZWsmQgIlrZ8rI1NKwf0") 
 
     # database config
-    DB_NAME = os.environ.get("DB_NAME","AshutoshGoswami24")     
-    DB_URL  = os.environ.get("DB_URL","")
+    DB_NAME = os.environ.get("DB_NAME","Db AutoRename")     
+    DB_URL  = os.environ.get("DB_URL","https://t.me/+uLMR6Uf2oT9lMmRl")
  
     # other configs
     BOT_UPTIME  = time.time()
@@ -17,7 +17,7 @@ class Config(object):
     ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
     # -- FORCE_SUB_CHANNELS = ["BotzPW","AshuSupport","AshutoshGoswami24"] -- # 
     FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', 'AshutoshGoswami24,BotzPW').split(',')
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001800521601"))
     PORT = int(os.environ.get("PORT", ""))
     
     # wes response configuration     
